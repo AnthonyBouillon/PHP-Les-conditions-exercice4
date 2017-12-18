@@ -36,5 +36,9 @@ switch ($magnitude){
   case 9:
     echo 'Le niveau de magnitude est de ' .$magnitude. ' : Séisme capable de tout détruire sur une très vaste zone.';
   break;
+
+  default :
+    echo 'Veuillez saisir un nombre correct';
+  break;
 }
 ?>
